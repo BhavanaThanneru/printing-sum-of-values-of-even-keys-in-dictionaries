@@ -1,0 +1,10 @@
+d={}
+n=int(input())
+for i in range(n):
+  k,v=map(int,input().split())
+  d[k]=v
+res=0
+for i in d:
+  if i%2==0:
+    res=res+d[i]
+print(res)
